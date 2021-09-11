@@ -30,7 +30,7 @@ public class Calculator implements SimpleCalc{
         return operand2/operand1;
     }
 
-    // Driver Code
+    // Driver Code Segment
     public static void main(String[] args) {
         final int o1 = 5;
         final int o2 = 10;
