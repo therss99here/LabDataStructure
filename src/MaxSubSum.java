@@ -2,7 +2,7 @@ public class MaxSubSum {
     public static void main(String[] args){
         int arr[] = {-2, -5, 6, -2, -3, 1, 5, -6};
         int n = arr.length;
-        int max_sum = maxSubArraySum(arr[], 0, n - 1);
+        int max_sum = maxSubArraySum(arr, 0, n - 1);
     }
 
     private static int maxSubArraySum(int[] arr, int l, int h) {
